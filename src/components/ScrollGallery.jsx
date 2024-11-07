@@ -68,9 +68,9 @@ const ScrollGallery = () => {
   }
 
   return (
-    <div ref={containerRef} className='relative h-screen'>
+    <div ref={containerRef} className='relative h-[100dvh]'>
       {/* Card 1 */}
-      <div className='card h-screen w-screen flex flex-col md:flex-row absolute top-0 left-0'>
+      <div className='card h-[100dvh] w-screen flex flex-col md:flex-row absolute top-0 left-0'>
         <div className='content-section w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center transition-colors duration-500'>
           <h2 className='text-2xl md:text-4xl font-bold text-gray-800 px-4 text-center'>
             Beautiful Nature
@@ -86,7 +86,7 @@ const ScrollGallery = () => {
       </div>
 
       {/* Card 2 */}
-      <div className='card h-screen w-screen flex flex-col md:flex-row absolute top-0 left-0'>
+      <div className='card h-[100dvh] w-screen flex flex-col md:flex-row absolute top-0 left-0'>
         <div className='content-section w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center transition-colors duration-500'>
           <h2 className='text-2xl md:text-4xl font-bold text-gray-800 px-4 text-center'>
             Urban Life
@@ -102,7 +102,7 @@ const ScrollGallery = () => {
       </div>
 
       {/* Card 3 */}
-      <div className='card h-screen w-screen flex flex-col md:flex-row absolute top-0 left-0'>
+      <div className='card h-[100dvh] w-screen flex flex-col md:flex-row absolute top-0 left-0'>
         <div className='content-section w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center transition-colors duration-500'>
           <h2 className='text-2xl md:text-4xl font-bold text-gray-800 px-4 text-center'>
             Ocean Waves
@@ -118,7 +118,7 @@ const ScrollGallery = () => {
       </div>
 
       {/* Card 4 */}
-      <div className='card h-screen w-screen flex flex-col md:flex-row absolute top-0 left-0'>
+      <div className='card h-[100dvh] w-screen flex flex-col md:flex-row absolute top-0 left-0'>
         <div className='content-section w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center transition-colors duration-500'>
           <h2 className='text-2xl md:text-4xl font-bold text-white px-4 text-center'>
             Mountain Peaks
