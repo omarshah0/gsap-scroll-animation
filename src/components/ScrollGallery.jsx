@@ -70,11 +70,13 @@ const ScrollGallery = () => {
   return (
     <div ref={containerRef} className='relative h-screen'>
       {/* Card 1 */}
-      <div className='card h-screen w-screen flex absolute top-0 left-0'>
-        <div className='content-section w-1/2 flex items-center justify-center transition-colors duration-500'>
-          <h2 className='text-4xl font-bold text-gray-800'>Beautiful Nature</h2>
+      <div className='card h-screen w-screen flex flex-col md:flex-row absolute top-0 left-0'>
+        <div className='content-section w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center transition-colors duration-500'>
+          <h2 className='text-2xl md:text-4xl font-bold text-gray-800 px-4 text-center'>
+            Beautiful Nature
+          </h2>
         </div>
-        <div className='w-1/2 h-full'>
+        <div className='w-full md:w-1/2 h-1/2 md:h-full'>
           <img
             src='https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05'
             alt='Nature landscape'
@@ -84,11 +86,13 @@ const ScrollGallery = () => {
       </div>
 
       {/* Card 2 */}
-      <div className='card h-screen w-screen flex absolute top-0 left-0'>
-        <div className='content-section w-1/2 flex items-center justify-center transition-colors duration-500'>
-          <h2 className='text-4xl font-bold text-gray-800'>Urban Life</h2>
+      <div className='card h-screen w-screen flex flex-col md:flex-row absolute top-0 left-0'>
+        <div className='content-section w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center transition-colors duration-500'>
+          <h2 className='text-2xl md:text-4xl font-bold text-gray-800 px-4 text-center'>
+            Urban Life
+          </h2>
         </div>
-        <div className='w-1/2 h-full'>
+        <div className='w-full md:w-1/2 h-1/2 md:h-full'>
           <img
             src='https://images.unsplash.com/photo-1449824913935-59a10b8d2000'
             alt='City view'
@@ -98,11 +102,13 @@ const ScrollGallery = () => {
       </div>
 
       {/* Card 3 */}
-      <div className='card h-screen w-screen flex absolute top-0 left-0'>
-        <div className='content-section w-1/2 flex items-center justify-center transition-colors duration-500'>
-          <h2 className='text-4xl font-bold text-gray-800'>Ocean Waves</h2>
+      <div className='card h-screen w-screen flex flex-col md:flex-row absolute top-0 left-0'>
+        <div className='content-section w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center transition-colors duration-500'>
+          <h2 className='text-2xl md:text-4xl font-bold text-gray-800 px-4 text-center'>
+            Ocean Waves
+          </h2>
         </div>
-        <div className='w-1/2 h-full'>
+        <div className='w-full md:w-1/2 h-1/2 md:h-full'>
           <img
             src='https://images.unsplash.com/photo-1505118380757-91f5f5632de0'
             alt='Ocean view'
@@ -112,11 +118,13 @@ const ScrollGallery = () => {
       </div>
 
       {/* Card 4 */}
-      <div className='card h-screen w-screen flex absolute top-0 left-0'>
-        <div className='content-section w-1/2 flex items-center justify-center transition-colors duration-500'>
-          <h2 className='text-4xl font-bold text-white'>Mountain Peaks</h2>
+      <div className='card h-screen w-screen flex flex-col md:flex-row absolute top-0 left-0'>
+        <div className='content-section w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center transition-colors duration-500'>
+          <h2 className='text-2xl md:text-4xl font-bold text-white px-4 text-center'>
+            Mountain Peaks
+          </h2>
         </div>
-        <div className='w-1/2 h-full'>
+        <div className='w-full md:w-1/2 h-1/2 md:h-full'>
           <img
             src='https://images.unsplash.com/photo-1464822759023-fed622ff2c3b'
             alt='Mountain landscape'
